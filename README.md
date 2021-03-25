@@ -2,11 +2,10 @@
 
 Small utils/scripts for Storj node related tasks
 
-Don't use if you don't understand what the scripts do!
+#### Don't use if you don't understand what the scripts do!
+#### Some may take a lot of memory and/or cpu time, so it's better to not run them on the same machine as the node (if possible).
 
-Some may take a lot of memory and/or cpu time, so it's better to not run them on the same machine as the node (if possible).
-
-#### [log_stats.py](log_stats.py)
+### Script 1: [log_stats.py](log_stats.py)
 
 Typical usage (weekly stats):
 ```
