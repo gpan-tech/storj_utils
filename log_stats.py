@@ -132,18 +132,19 @@ class Stats:
                         if size is None: rec.down_cancel_unseen += 1
                         else:            rec.down_cancel_size   += size
                     else:
-                        print('! Unexpected line:  ', line, file=sys.stderr)
-                elif module == 'piecedeleter':
+                        # print('! Unexpected line:  ', line, file=sys.stderr)
+                        pass
+                elif module in ('piecedeleter', 'collector'):
                     event = parts[3]
-                    data  = json.loads(parts[4])
-                    pid   = data['Piece ID']
-                    if event in ('deleted', 'delete failed'):
+                    if event in ('deleted', 'delete failed', 'delete expired'):
+                        data = json.loads(parts[4])
+                        pid  = data['Piece ID']
                         size = self.pieces.pop(pid, None)
                         rec.del_ok += 1
                         if size is None: rec.del_ok_unseen += 1
                         else:            rec.del_ok_size   += size
                     else:
-                        print('! Unexpected line:  ', line, file=sys.stderr)
+                        pass
                 else:
                     pass
             except (IndexError, KeyError) as ex:
