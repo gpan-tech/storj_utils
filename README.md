@@ -1,9 +1,9 @@
 # Storj node operator (SNO) utils
 
-Small utils/scripts for Storj node related tasks
+Small utils/scripts for Storj node related tasks.
 
-#### Don't use if you don't understand what the scripts do!
-#### Some may take a lot of memory and/or cpu time, so it's better to not run them on the same machine as the node (if possible).
+**Don't use if you don't understand what the scripts do!**  
+**Some may take a lot of memory and/or cpu time, so it's better to not run them on the same machine as the node (if possible).**
 
 ### Script 1: [log_stats.py](log_stats.py)
 
@@ -17,7 +17,7 @@ Syntax:
 log_stats.py <days>
 ```
 
-Reads the node's log and prints out useful stats per <days> days. Days start at 00:00 UTC.
+Reads the node's log and prints out useful stats per `<days>` days. Days start at 00:00 UTC.
 
 Sample output:
 ```
