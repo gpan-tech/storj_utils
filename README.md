@@ -64,5 +64,6 @@ The log shows the size of each piece when it was uploaded, but in the past it di
 
 ## Other useful utils [links]
 
-[Storj Earnings Calculator](https://github.com/ReneSmeekes/storj_earnings), [forum](https://forum.storj.io/t/earnings-calculator-update-2021-03-05-v10-1-1-detailed-payout-information-now-includes-comparison-to-actual-payout-postponed-payouts-due-to-threshold-and-transaction-links/1794)
-[Success rate script](https://github.com/ReneSmeekes/storj_success_rate), [forum](https://forum.storj.io/t/success-rate-script-now-updated-for-new-terminology-in-logs-after-update-to-0-34-6-or-later/5114)
+[Storj Earnings Calculator](https://github.com/ReneSmeekes/storj_earnings) | [forum](https://forum.storj.io/t/earnings-calculator-update-2021-03-05-v10-1-1-detailed-payout-information-now-includes-comparison-to-actual-payout-postponed-payouts-due-to-threshold-and-transaction-links/1794)
+
+[Success rate script](https://github.com/ReneSmeekes/storj_success_rate) | [forum](https://forum.storj.io/t/success-rate-script-now-updated-for-new-terminology-in-logs-after-update-to-0-34-6-or-later/5114)
